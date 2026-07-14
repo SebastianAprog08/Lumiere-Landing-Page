@@ -4,70 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumière | Óptica</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>
-            <a href="#hero">Lumière</a>
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="#hero">Inicio</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#solutions">Soluciones</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-        <button>Agenda tu valoración</button>       
+        <div class="container">   
+            <a href="#hero">
+            <img src="/assets/logo.png" alt="Logo de la Óptica">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#solutions">Soluciones</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="btn-primary btn-sm">Agenda tu valoración</button>       
+        </div>
     </header>
     
     <main>
         <section id="hero">
-            <span>CUIDAMOS TU VISIÓN</span>
-            <h2>Tu visión merece el mejor cuidado</h2>
-            <p>En Lumière cuidamos tu salud visual con tecnología avanzada y atención personalizada para que disfrutes el mundo con mayor claridad.</p>
-            <button>Agenda tu valoración</button>
-            <button><a href="#services">Conoce nuestros servicios</a></button>
-            <img src="" alt="Familia sonriendo mientras usa gafas graduadas">    
-        </section>
+            <div class="container">
+                <div class="hero-content">
+                    <span class="eyebrow">CUIDAMOS TU VISIÓN</span>
+                    <h2>Tu visión merece el mejor cuidado</h2>
+                    <p>En Lumière cuidamos tu salud visual con tecnología avanzada y atención personalizada para que disfrutes el mundo con mayor claridad.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Agenda tu valoración</button>
+                        <a href="#services" class="btn-secondary">Conoce nuestros servicios</a>
+                    </div>    
+                </div>
+                    <img src="" alt="Familia sonriendo mientras usa gafas graduadas">    
+            </div>
+            </section>
     
     
     <section id="why-us">
-        <h2>¿Por qué elegir Lumière?</h2>
+        <div class="container">
+            <h2>¿Por qué elegir Lumière?</h2>
         
-        <div class="why-us-cards">
-            <article>
-                <!-- Ícono -->
-                <h3>Profesionales certificados</h3>
-                <p>Optómetras con experiencia comprometidos con tu salud visual.</p>
-            </article>
+            <div class="why-us-cards">
+                <article>
+                    <!-- Ícono -->
+                    <h3>Profesionales certificados</h3>
+                    <p>Optómetras con experiencia comprometidos con tu salud visual.</p>
+                </article>
 
-            <article>
-                <!-- Ícono -->
-                <h3>Tecnología avanzada</h3>
-                <p>Equipos modernos para diagnósticos precisos y confiables.</p>
-            </article>
+                <article>
+                    <!-- Ícono -->
+                    <h3>Tecnología avanzada</h3>
+                    <p>Equipos modernos para diagnósticos precisos y confiables.</p>
+                </article>
 
-            <article>
-                <!-- Ícono -->
-                <h3>Atención personalizada</h3>
-                <p>Te escuchamos y diseñamos la mejor solución para ti.</p>
-            </article>
+                <article>
+                    <!-- Ícono -->
+                    <h3>Atención personalizada</h3>
+                    <p>Te escuchamos y diseñamos la mejor solución para ti.</p>
+                </article>
 
-            <article>
-                <!-- Ícono -->
-                <h3>Soluciones para todos</h3>
-                <p>Opciones de calidad que se adaptan a tu necesidad y presupuesto.</p>
-            </article>
-        </div>
-    </section>
+                <article>
+                    <!-- Ícono -->
+                    <h3>Soluciones para todos</h3>
+                    <p>Opciones de calidad que se adaptan a tu necesidad y presupuesto.</p>
+                </article>
+            </div>
+        </div>    
+        </section>
         
         <section id="solutions">
-            <h2>¿Cómo podemos ayudarte?</h2>
+            <div class="container">
+                <h2>¿Cómo podemos ayudarte?</h2>
 
-            <div class="solutions-card">
+                <div class="solutions-card">
                 <article>
                     <!-- Ícono -->
                     <h3>Migrañas y fotofobias</h3>
@@ -97,13 +112,15 @@
                     <h3>Cuidado para toda la familia</h3>
                     <p>Niños, jóvenes, adultos y mayores.</p>
                 </article>
+                </div>
             </div>
         </section>
         
         <section id="services">
-            <h2>Nuestros Servicios</h2>
+            <div class="container">
+                <h2>Nuestros Servicios</h2>
 
-            <div class="services-cards">
+                <div class="services-cards">
                 <article>
                     <!-- Ícono -->
                     <h3>Optometría clínica</h3>
@@ -139,20 +156,23 @@
                     <h3>Baja visión</h3>
                     <p>Soluciones especializadas para cada necesidad</p>
                 </article>
+                </div>
             </div>
         </section>
 
         <section id="cta">
-            <h2>Da el primer paso hacia una mejor visión</h2>
-            <p>Agenda una valoración visual y descubre la solución que mejor se adapta a ti y a tu familia.</p>
-            <button>Agenda tu valoración</button>
-            <img src="" alt="Escritorio de un Optómetra">
-            <ul>
-                <li>Atención rápida</li>
-                <li>Asesoría personalizada</li>
-                <li>Para toda la familia</li>
-            </ul>
-        </section>
+            <div class="container">
+                <h2>Da el primer paso hacia una mejor visión</h2>
+                <p>Agenda una valoración visual y descubre la solución que mejor se adapta a ti y a tu familia.</p>
+                <button class="btn-primary">Agenda tu valoración</button>
+                <img src="" alt="Escritorio de un Optómetra">
+                <ul>
+                    <li>Atención rápida</li>
+                    <li>Asesoría personalizada</li>
+                    <li>Para toda la familia</li>
+                    </ul>
+            </div>        
+                </section>
     </main>
         
     <footer id="contact">
@@ -161,9 +181,9 @@
         <address>
             <p>📍 Cartagena, Colombia</p>
 
-            <p><a href="57+ 3003962212">📞 +57 3003962212</a></p>
+            <p><a href="tel: 57+ 3003962212">📞 +57 3003962212</a></p>
 
-            <p><a href="sebastianaparicio2374@gmail.com">✉ salassofia@gmail.com</a></p>
+            <p><a href="sofiasalas@gmail.com">✉ salassofia@gmail.com</a></p>
         </address>
             
         <p>&copy; 2026 Lumière. Todos los derechos reservados.</p>
