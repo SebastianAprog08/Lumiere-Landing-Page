@@ -2,7 +2,7 @@
 
 A modern and responsive landing page for a fictional optical clinic, built with semantic HTML and modern CSS.
 
-![Project Preview](assets/images/preview.png)
+<img width="1904" height="907" alt="Lumière-Landing-Page" src="https://github.com/user-attachments/assets/03b0db54-2b5c-4a1e-ac9d-9ba83dfb01ec" />
 
 ## 📖 About the project
 
