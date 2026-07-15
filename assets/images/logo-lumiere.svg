@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" width="560" height="140">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9B87E"/>
+      <stop offset="100%" stop-color="#C9A66B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ================= MARCA (icono) ================= -->
+  <!-- Aro principal: representa el ojo / el lente, abierto exactamente donde entra la luz -->
+  <g transform="translate(70,70)">
+    <path d="M 41.96 -13.23 A 44 44 0 1 1 13.23 -41.96" fill="none" stroke="#1C3D5A" stroke-width="6" stroke-linecap="round"/>
+    <!-- Punto de luz dorado: el rayo que entra por la abertura -->
+    <circle cx="31.11" cy="-31.11" r="8.5" fill="url(#goldGrad)"/>
+    <!-- Iris central: punto de enfoque / visión -->
+    <circle cx="0" cy="0" r="12" fill="#1C3D5A"/>
+  </g>
+
+  <!-- ================= WORDMARK ================= -->
+  <text x="140" y="80" font-family="Poppins" font-weight="700" font-size="46" fill="#1C3D5A" letter-spacing="0.5">Lumière</text>
+  <text x="142" y="103" font-family="Poppins" font-weight="500" font-size="13" fill="#C9A66B" letter-spacing="4.5">ÓPTICA</text>
+</svg>
